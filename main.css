@@ -8,7 +8,8 @@ body{
 	background-image: url('img/bg.jpg');
 	font-family: 'Indie Flower', cursive;
 	min-width: 1400px;
-	
+	cursor: url('img/cursor.png'), auto;
+
 }
 .opac{
 	mix-blend-mode: multiply;
