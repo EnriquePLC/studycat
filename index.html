@@ -78,6 +78,26 @@
         $("header").attr("class", "fixed");
     });
   </script>
+	  <script>
+document.addEventListener('DOMContentLoaded', function () {
+    var body = document.body;
+    var clicked = false;
+    
+    body.addEventListener('click', function () {
+        if (clicked) {
+            document.body.style.cursor = 'url("img/cursor.png"), auto';
+            clicked = false;
+        } else {
+            document.body.style.cursor = 'url("img/cursor2.png"), auto';
+            clicked = true;
+        }
+    });
+});
+
+
+  </script>
+
+	
 </body>
 
 
